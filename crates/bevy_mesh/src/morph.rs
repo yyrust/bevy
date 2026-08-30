@@ -12,7 +12,7 @@ use thiserror::Error;
 pub const MAX_TEXTURE_WIDTH: u32 = 2048;
 
 /// Max target count available for [morph targets](MorphWeights).
-pub const MAX_MORPH_WEIGHTS: usize = 256;
+pub const MAX_MORPH_WEIGHTS: usize = 512;
 
 /// The maximum number of morph target components, if morph target textures are
 /// in use on the current platform.

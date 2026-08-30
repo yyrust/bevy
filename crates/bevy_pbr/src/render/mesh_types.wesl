@@ -33,7 +33,7 @@ struct SkinnedMesh {
 
 @if(MORPH_TARGETS)
 struct MorphWeights {
-    weights: array<vec4<f32>, 64u>, // 64 = 256 / 4 (256 = MAX_MORPH_WEIGHTS)
+    weights: array<vec4<f32>, 128u>, // 128 = 512 / 4 (512 = MAX_MORPH_WEIGHTS)
 };
 
 /// Describes a single mesh instance that uses morph targets.
